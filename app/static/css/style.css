@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  border: 10px double black;
+  background-color: #f660ab;
+}
+
+header{
+  font-family: 'Raleway Dots', cursive;
+  font-size: 100px;
+  height: 140px;
+  background-size: cover;
+  color: #ffd700;
+  text-align: center;
+  vertical-align:text-middle;
+}
+
+nav{
+  height: 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #c12267;
+  background-color: #6A287E;
+  border: 1px dashed #c12267;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: white;
+  background-color: #A74AC7;
+}
+
+
+section{
+  padding: 10px;
+}
+
+#container{
+  width: 700px;
+  margin: 0px auto;
+}
+
+#main{
+  border: 1px solid red;
+  width: 700px;
+}
+
+.nav{
+  background-color: #6A287E;
+  height: 60px;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+
+h3{
+  color: #c12267;
+  font-size: 25px;
+
+
+}
+
+.date{
+  font-size: 20px;
+  color: #c12267;
+}
+
+p{
+  font-size: 25px;
+  color: #c12267;
+}
+
+footer{
+  text-align: center;
+  background-color: #6A287E;
+  padding: 10px;
+  color: #c12267;
+  font-size: 20px;
+}
+.contentBox{
+height: 550px;
+}
+
+
+.contentBox img {
+   display: block;
+ }
+
+    .portrait img {
+          width: 50%;
+        }
+        .landscape img {
+              height: 50%;
+            }
