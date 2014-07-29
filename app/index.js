@@ -26,6 +26,6 @@ app.get('/tours', function(req, res){
     res.render('tours');
 });
 
-app.listen(3002, function(){
+app.listen(process.env.PORT, function(){
     console.log('work bitch!...');
 });

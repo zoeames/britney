@@ -24,6 +24,11 @@ nav{
 }
 
 
+div{
+  height:auto;
+  max-height:200px;
+}
+
 a{
   text-decoration: none;
   font-size: 30px;
@@ -91,15 +96,19 @@ footer{
 }
 .contentBox{
 height: 550px;
+  display: inline-block;
+  position: absolute;
 }
 
 
 .contentBox img {
    display: block;
+  display: inline-block;
  }
 
     .portrait img {
           width: 50%;
+  display: inline-block;
         }
         .landscape img {
               height: 50%;
